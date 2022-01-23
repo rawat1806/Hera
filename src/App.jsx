@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 const App = () => {
   return( 
   <>
-    <Home/>
+    <Home style={{margin: "0px", padding: "0px"}}/>
   </>
   );
 };
