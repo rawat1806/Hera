@@ -15,8 +15,6 @@ const Section = styled.div`
 `
 
 const Container = styled.div`
-
-//   border: 1px solid red;
   height: 100%;
   padding: 20px;
   display: flex;

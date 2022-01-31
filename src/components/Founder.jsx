@@ -1,7 +1,17 @@
 import React from "react";
 import styled from "styled-components";
 
-const Container = styled.div``;
+const Container = styled.div`
+
+  justify-content: space-between;
+  align-items: center;
+  height: 70vh;
+  //   border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+
+
+`;
 
 const ProfileImg = styled.img``;
 

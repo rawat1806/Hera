@@ -18,10 +18,10 @@ const Home = () => {
             <Slider/>
             <Collection/>
             <Categories/>
-            <Products/>
+            {/* <Products/> */}
             <Arrivals/>
             <Founder/>
-            <Newsletter/>
+            {/* <Newsletter/> */}
             <Footer/>
         </div>
     )

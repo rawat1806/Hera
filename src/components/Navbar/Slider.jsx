@@ -45,33 +45,38 @@ const Slide = styled.div`
     height: 100vh;
     display: flex;
     align-items: center;
-    background-color: #${props => props.bg};
+    position: relative
+    // background-color: #F2E5E1;
 `
 
 const ImgContainer = styled.div`
-    height: 100%;
-    flex: 1;
-    
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+
 `
 const Image = styled.img`
-    height: 80%;
-
+    width: 100vw;
+    height: 100vh;
 
 `
 const InfoContainer = styled.div`
-    flex: 1;
-    padding: 50px;
+    position: absolute;
+    z-index: 2;
+
 `
 
 const Title = styled.h1`
     font-size: 70px; 
+    color: white;
 `
 
 const Description = styled.p`
     margin: 50px 0px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 300;
     letter-spacing: 3px;
+    color: white;
 `
 
 const Button = styled.button`
@@ -80,6 +85,7 @@ const Button = styled.button`
     font-size: 20px;
     background-color: transparent; 
     cursor: pointer; 
+    color: white;
 
 `
 
@@ -107,7 +113,7 @@ const Slider = () => {
             <ImgContainer>
               <Image src={item.img} />
             </ImgContainer>
-            <InfoContainer>
+             <InfoContainer>
               <Title>{item.title}</Title>
               <Description>{item.desc}</Description>
               <Button>SHOW NOW</Button>

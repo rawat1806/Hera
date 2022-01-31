@@ -1,22 +1,21 @@
-
 export const sliderItems = [
     {
       id: 1,
-      img: "https://i.ibb.co/DG69bQ4/1.png",
+      img: "https://scontent.fjai5-1.fna.fbcdn.net/v/t39.30808-6/272951154_101376202469767_934590244996781498_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=730e14&_nc_ohc=lOYdKF7C1AsAX97wQ5l&tn=kHqDStlhzrFw7UU2&_nc_ht=scontent.fjai5-1.fna&oh=00_AT8AdLdk1_Z158JQAsUbNM4nb1--XFUdspgDqILxOYTv4A&oe=61FD1841",
       title: "SUMMER SALE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "f5fafd",
     },
     {
       id: 2,
-      img: "https://i.ibb.co/DG69bQ4/2.png",
+      img: "https://scontent.fjai5-1.fna.fbcdn.net/v/t39.30808-6/272951777_101376419136412_9141693345133321186_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=ZxGR5XcT4JQAX8q0tAX&_nc_ht=scontent.fjai5-1.fna&oh=00_AT_RhxrFgh892dGpiEkT-dHrirwG09qDAH3rA91tFjhvLw&oe=61FD73AE",
       title: "AUTUMN COLLECTION",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "fcf1ed",
     },
     {
       id: 3,
-      img: "https://i.ibb.co/cXFnLLV/3.png",
+      img: "https://scontent.fjai5-1.fna.fbcdn.net/v/t39.30808-6/272954559_101376752469712_2148428488462219534_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_ohc=JDXcEMZ-yz8AX_2kTMg&_nc_ht=scontent.fjai5-1.fna&oh=00_AT9KuiWRwIgx0DxWCJG--YiyXMyHBbysECb19XRaYAk6PQ&oe=61FDB209",
       title: "LOUNGEWEAR LOVE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "fbf0f4",
