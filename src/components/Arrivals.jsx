@@ -9,6 +9,7 @@ import Product from "./Product";
 const Section = styled.div`
     // border: 1px solid red;
     height: 70vh;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     overflow: hidden;

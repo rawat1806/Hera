@@ -8,10 +8,10 @@ import styled from "styled-components";
 const Info = styled.div`
     opacity: 0;
     width: 100%;
-    height: 100%;
+    height: 75%;
     position: absolute;
-    top: 0;
-    left: 0;
+    // top: 0;
+    // left: 0;
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 3;
     display: flex;
@@ -29,7 +29,7 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f5fbfd;
+    // background-color: #61482D;
     position: relative;
     // cursor: pointer;
 

@@ -113,11 +113,11 @@ const Slider = () => {
             <ImgContainer>
               <Image src={item.img} />
             </ImgContainer>
-             <InfoContainer>
+             {/* <InfoContainer>
               <Title>{item.title}</Title>
               <Description>{item.desc}</Description>
               <Button>SHOW NOW</Button>
-            </InfoContainer>
+            </InfoContainer> */}
           </Slide>
         ))}
 
