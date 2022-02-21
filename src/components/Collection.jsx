@@ -29,19 +29,26 @@ const Title = styled.h1`
   font-weight: 100;
   font-style: normal;
   font-size: 33px;
-  text-align: center;
+  text-align: left;
+  padding-bottom: 20px;
 `;
 
-const Desc = styled.p`
-  margin: auto;
-  width: 70%;
-  height: 50%;
+const Content = styled.div`
   font-weight: 400;
   font-size: 12px;
   word-spacing: 0.1em;
   letter-spacing: 0.1em;
   line-height: 1.6em;
   align-items: center;
+  padding-bottom: 10px;
+
+`
+
+const Desc = styled.p`
+  margin: auto;
+  width: 70%;
+  height: 50%;
+  
 `;
 
 const Button = styled.button`
@@ -102,19 +109,18 @@ const Collection = () => {
   return (
     <Container>
       <Left>
-        <Title>House of Hera Collection</Title>
         <Desc>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quo ex
-          similique recusandae, accusantium consequatur officia sint assumenda
-          dolore dolorem inventore veritatis tempora minima reprehenderit fugiat
-          repudiandae nulla aliquid earum? Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Error quo ex similique recusandae,
-          accusantium consequatur officia sint assumenda dolore dolorem
-          inventore veritatis tempora minima reprehenderit fugiat repudiandae
-          nulla aliquid earum? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Error quo ex similique recusandae, accusantium
-          consequatur officia sint assumenda dolore dolorem inventore veritatis
-          tempora minima reprehenderit fugiat repudiandae nulla aliquid earum?
+        <Title>Valentine's Day Collection</Title>
+        <Content>Celebrate the entire Valentine's week like a true romantic with our thoughtful gift hampers.
+           You are likely to receive a LOT more love and cuddles, by surprising your partner for the entire Valentine's week,
+            than those who plan just one surprise on the 14th. </Content>
+<Content>
+Although love does not necessarily need a specific day to celebrate it,
+ Valentine's Day holds a special place in the hearts of many. 
+ It is a special day for young couples who are in love. So, for this Valentine's Day, 
+ celebrate your Love with the best gifts from Hera, the online store for all your gifting needs.
+</Content>
+          
           <br />
           <Button>Explore</Button>
         </Desc>
