@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import cx from "clsx";
+import FrontImg from "./../assets/frontimage.jpeg"
+import BackImg from "./../assets/backimage.jpeg"
 
 const Container = styled.div`
   justify-content: space-between;
@@ -126,9 +128,9 @@ Although love does not necessarily need a specific day to celebrate it,
         </Desc>
       </Left>
       <Right>
-        <BackImage src="https://scontent.fjai5-1.fna.fbcdn.net/v/t39.30808-6/273172982_101389122468475_691779104178261643_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_ohc=00P6Yk4l0e4AX980Z8I&tn=kHqDStlhzrFw7UU2&_nc_ht=scontent.fjai5-1.fna&oh=00_AT_ZBxMdyYURIZFX-vREjHGPakTUBXe3IztMVKnV7AkkjA&oe=61FC6F78" />
+        <BackImage src={FrontImg} />
 
-        <FrontImage src="https://scontent.fjai5-1.fna.fbcdn.net/v/t39.30808-6/272826784_101386789135375_1696000931043272641_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_ohc=zmxNi8tFqlgAX9io7uW&_nc_ht=scontent.fjai5-1.fna&oh=00_AT_vSe4iLg4pO9u8ed6iXuCzzqVCEgs0qWiXUrHu4t-HXA&oe=61FD6CE5" />
+        <FrontImage src= {BackImg} />
       </Right>
     </Container>
   );
